@@ -1,0 +1,18 @@
+Package: businessr
+Title: What the Package Does (one line, title case)
+Version: 0.0.0.9000
+Authors@R: person("Davis", "Clark", email="davissclark@gmail.com", role = c("aut", "cre"))
+Description: Provides a set of utility functions to facilitate day to day
+    workload of a business operations analyst.
+Depends:
+    R (>= 3.2.2)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+    RODBC,
+    dplyr,
+    lubridate,
+    caret,
+    ggplot2
+RoxygenNote: 5.0.1
